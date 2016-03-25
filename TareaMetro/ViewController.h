@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@import SafariServices;
+@interface ViewController : UIViewController <UITextViewDelegate, SFSafariViewControllerDelegate>
+@property (nonatomic,strong) IBOutlet UITextView *contenido;
+@property(nonatomic, weak) id< SFSafariViewControllerDelegate, SFSafariViewControllerDelegate > delegate;
 
 @end
 

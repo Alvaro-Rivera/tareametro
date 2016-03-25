@@ -13,6 +13,7 @@
 		B24CAEE21CA49660003B6B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24CAEE01CA49660003B6B75 /* Main.storyboard */; };
 		B24CAEE41CA49660003B6B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24CAEE31CA49660003B6B75 /* Assets.xcassets */; };
 		B24CAEE71CA49660003B6B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24CAEE51CA49660003B6B75 /* LaunchScreen.storyboard */; };
+		B2A4BCC61CA4996F003AD944 /* content HTML.html in Resources */ = {isa = PBXBuildFile; fileRef = B2A4BCC51CA4996F003AD944 /* content HTML.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B24CAEE31CA49660003B6B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24CAEE61CA49660003B6B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B24CAEE81CA49660003B6B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A4BCC51CA4996F003AD944 /* content HTML.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "content HTML.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B24CAED61CA4965F003B6B75 /* TareaMetro */ = {
 			isa = PBXGroup;
 			children = (
+				B2A4BCC51CA4996F003AD944 /* content HTML.html */,
 				B24CAEDA1CA4965F003B6B75 /* AppDelegate.h */,
 				B24CAEDB1CA4965F003B6B75 /* AppDelegate.m */,
 				B24CAEDD1CA4965F003B6B75 /* ViewController.h */,
@@ -110,6 +113,7 @@
 				TargetAttributes = {
 					B24CAED31CA4965F003B6B75 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AV2PVSZ6ZZ;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A4BCC61CA4996F003AD944 /* content HTML.html in Resources */,
 				B24CAEE71CA49660003B6B75 /* LaunchScreen.storyboard in Resources */,
 				B24CAEE41CA49660003B6B75 /* Assets.xcassets in Resources */,
 				B24CAEE21CA49660003B6B75 /* Main.storyboard in Resources */,
@@ -261,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TareaMetro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cl.prueba.TareaMetro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -272,10 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TareaMetro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cl.prueba.TareaMetro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -298,6 +309,7 @@
 				B24CAEED1CA49660003B6B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
